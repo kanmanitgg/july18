@@ -1,0 +1,107 @@
+header{
+  background:linear-gradient(#ff0066,#ff99c2);
+  position:fixed;z-index:9999;
+}
+.topics
+{
+  margin-left:250px;
+  color:#330033;
+}
+h1 {
+  width:1366px;
+ text-align: center;
+ font-family: Blackadder ITC;
+ font-size:60px;color:
+ black;margin-top:10px;
+
+}
+h2{
+ text-align: center;
+ font-family:Blackadder ITC;
+ font-size:50px;
+ color:#ff0066
+}
+nav li{
+  display :inline;
+  font-family: Ravie;
+  font-size: 20px;
+}
+a{
+  text-decoration:none;
+  padding-right: 10px;
+}
+a:hover
+{
+  color:#1aff1a;
+}
+.hero{
+  position:relative;
+  z-index=-1;
+  top:150px;
+
+}
+.hero img{
+  height:100%;
+  width:100%;
+}
+.wrap
+{
+  margin-top:150px;
+}
+.grid_4 img{
+  height:100%;
+  width:100%;
+}
+.tooltip h2
+{
+ text-align: center;
+ font-family:Harrington;
+ color:#ff3300;
+}
+.tooltip h3
+{
+ text-align: center;
+ font-family:Harrington;
+ color:#ff3300;
+}
+.tooltip1 h4
+{
+ text-align: center;
+ font-family:Harrington;
+ color:#ff3300;
+}
+.grid_4:hover .tooltip{
+visibility: visible;
+}
+
+  .grid_4 .tooltip{
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+  background-color: black;
+  height:50px;
+}
+.grid_4:hover  .tooltip1{
+visibility: visible;
+
+}
+.grid_4 .tooltip1{
+  visibility: hidden;
+  position: relative;
+  top:-30px;
+  background-color: black;
+  height:30px;
+  margin-top: 0px;
+  margin-bottom:-30px;
+}
+.footer ul
+{
+text-align: center;
+}
+.footer li
+{
+
+  display: inline;
+  font-family: Comic Sans MS;
+ font-size: 30px;
+}

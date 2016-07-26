@@ -1,0 +1,28 @@
+h2
+{
+  color:yellow;
+  text-align:center;
+  font-family:Pacifico;
+  font-weight:100px;
+  text-decoration:none;
+
+}
+.header{
+  margin-top:-15px;
+  height:100px;
+  background-color:black;
+}
+li
+{
+  color:yellow;
+  display: inline;
+  padding:10px;
+  background-color:rgb(255,0,255);
+  position: relative;
+  top:10px;
+  background-color:black;
+
+}
+ul li:hover{
+  background-color: yellow;
+}

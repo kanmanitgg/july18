@@ -1,0 +1,111 @@
+body
+{
+  background-color: black;
+}
+
+.front
+{
+  /*width: 1366px;*/
+  height:666px;
+  background-image: url('../img/front.jpg');
+}
+h1,a
+{
+  color:#cc0066 ;
+  text-align:center;
+  font-family:Pacifico;
+  font-weight: 800px;
+  position: relative;
+  top:30px;
+  text-decoration: none;
+}
+
+
+a:hover
+{
+  color:#ffff33;
+}
+
+a{
+  text-decoration:none;
+  padding-right: 10px;
+
+}
+nav{
+  margin-top: -20px;
+}
+nav li{
+  display :inline;
+  font-family: Ravie;
+  font-size: 20px;
+
+}
+.grid_4 img{
+  height:100%;
+  width:100%;
+}
+h1 {
+  width:1366px;
+ text-align: center;
+ font-family: Blackadder ITC;
+
+}
+h2{
+ text-align: center;
+ font-family:Curlz MT;
+}
+.tooltip h2
+{
+ text-align: center;
+ font-family:Harrington;
+ color:#ff3300;
+}
+.tooltip h3
+{
+ text-align: center;
+ font-family:Harrington;
+ color:#ff3300;
+}
+.tooltip1 h4
+{
+ text-align: center;
+ font-family:Harrington;
+ color:#ff3300;
+}
+.grid_4:hover  .tooltip{
+visibility: visible;
+}
+
+  .grid_4 .tooltip{
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+  background-color: black;
+  height:50px;
+}
+.grid_4:hover  .tooltip1{
+visibility: visible;
+
+}
+.grid_4 .tooltip1{
+  visibility: hidden;
+  position: relative;
+  top:-30px;
+  background-color: black;
+  height:30px;
+  margin-top: 0px;
+  margin-bottom:-30px;
+}
+.footer ul
+{
+
+text-align: center;
+
+}
+.footer li
+{
+
+  display: inline;
+  font-family: Monotype Corsiva;
+ font-size: 30px;
+}
