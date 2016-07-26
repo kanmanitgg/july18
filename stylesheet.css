@@ -1,0 +1,16 @@
+.front
+{
+  /*width: 1366px;*/
+  height:666px;
+  background-image: url(front.jpg);
+}
+h1,a
+{
+  color: white;
+  text-align:center;
+  font-family:Pacifico;
+  font-weight: 800px;
+  position: relative;
+  top:30px;
+  text-decoration: none;
+}
